@@ -2,9 +2,10 @@ html,
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #162129;
 }
 .navbar {
-  background-color: #01949A;
+  background-color: #0f171d;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,7 +26,7 @@ body {
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #02011E;
+  color: #a2fab3;
 }
 .menu {
   display: none;
@@ -70,18 +71,18 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 50px;
-  color: white;
-    background-color: blue;
-    font-size: 40px;
+  color: #a2fab3;
+  font-size: 40px;
   font-family: 'Georgia', serif;
 }
 .wh-container {
   display: flex;
   flex-direction: row;
-  background-color: rgb(0, 68, 255);
   color: white;
+    background-color: #0f171d;
+
 }
-.wh-item{
+.wh-item {
   text-align: center;
   align-items: center;
   font-size: 25px;
@@ -102,7 +103,7 @@ body {
 }
 .grid-item {
   border: 1px solid #0f171d;
-  background-color: blue;
+  background-color: #0f171d;
   color: white;
   /* padding: 20px;
   font-size: 30px;
@@ -125,81 +126,24 @@ body {
   border-radius: 2px;
 }
 .code {
-  color: blue;
+  color: #0f171d;
   transition: color 0.3s ease-out;
 }
 .project:hover .code {
-  color: white;
+  color: #a2fab3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
+.footer{
   display: flex;
-  flex-direction: row;
-  background-color: #00004d;
-  height: 40%;
-  font-size: large;
-  font-family: 'Georgia', serif;
-  color: white;
+  align-items: center;
   text-align: center;
+  justify-content:space-around;
+  background-color: #0f171d;
+  color: white;
+  padding: 30px 0px;
 }
-.vl {
-  border-left: 1px solid white;
-  height: 210px;
-  margin: 30px 30px 30px 30px;
-}
-.footer-1 {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0px;
-  gap: 0px;
-}
-.footer-2 {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer-2.1 {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer-2.2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.footer-3 {
-  width: 33%;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 5%;
+.f-header h3,h6{
+  font-size: 25px;
+    color: #a2fab3;
+    margin: 5px;
+
 }
